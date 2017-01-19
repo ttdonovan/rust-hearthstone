@@ -1,0 +1,6 @@
+[package]
+name = "hearthstone"
+version = "0.0.1"
+authors = ["Tanner Donovan <ttdonovan@gmail.com>"]
+
+[dependencies]
