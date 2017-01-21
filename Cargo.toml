@@ -2,5 +2,22 @@
 name = "hearthstone"
 version = "0.0.1"
 authors = ["Tanner Donovan <ttdonovan@gmail.com>"]
+description = "CardDefs.xml parser and Hearthstone enums for Rust"
+
+documentation = "https://github.com/ttdonovan/rust-hearthstone"
+homepage = "https://github.com/ttdonovan/rust-hearthstone"
+repository = "https://github.com/ttdonovan/rust-hearthstone"
+readme = "README.md"
+keywords = ["hearthstone", "simulation", "cards", "game"]
+license = "MIT"
+
+[dev-dependencies]
+env_logger = "0.4"
 
 [dependencies]
+enum_primitive = "0.1"
+log = "0.3"
+num = "0.1"
+serde = "0.8"
+serde_derive = "0.8"
+serde_xml = "0.9"

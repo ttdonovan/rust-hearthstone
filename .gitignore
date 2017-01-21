@@ -1,2 +1,6 @@
 target
 Cargo.lock
+
+build
+src/CardDefs.xml
+src/Strings
